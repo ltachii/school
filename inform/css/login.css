@@ -1,0 +1,403 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft Yahei";
+}
+
+.login_top{
+	width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.login_top p{
+	font-size: 45px;
+	letter-spacing: 3px;
+}
+
+.login_main{
+	width: 100%;
+    height: 650px;
+    font-size: 43px;
+    text-align: center;
+}
+
+
+.login_form{
+	width: 80%;
+	height: 100px;
+	font-size: 43px;
+	border: none;
+	outline:medium;
+	color: 	#C0C0C0;
+}
+
+.login_num{
+    width: 90%;
+    height: 120px;
+    margin: 30px;
+    border-bottom: 3px solid #f4f5f9;
+    float: right;
+}
+
+.login_num p{
+	float: left;
+	margin-top: 20px;
+	color: 	#C0C0C0;
+}
+
+.login_bot{
+	width: 100%;
+    height: 100px;
+}
+
+.login_sub{
+	width: 90%;
+	height: 100px;
+	font-size: 43px;
+	margin-top: 50px;
+	border: 1px solid #ffda44;
+	background: #ffda44;
+}
+
+.botto_reg{
+	width: 23%;
+	height: 90px;
+	margin: 0 auto;
+	text-align: center;
+	border: 3px solid #ffda44;
+	line-height: 90px;
+}
+
+.botto_reg a{
+	font-size: 45px;
+	color: #ffda44;
+	text-decoration: none;
+}
+
+
+/*个人内容页*/
+
+.sub_shear{
+	width: 95%;
+	height: 130px;
+}
+
+.sub_shear img{
+	float: right;
+	margin-top: 30px;
+}
+
+.sub_content{
+	width: 95%;
+	margin: 30px;
+	border-top: 3px solid #f4f5f9;
+}
+
+.content_font{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+
+.content_img{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.content_img img{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.content_mine{
+	width: 100%;
+	height: 350px;
+	font-size: 40px;
+	overflow: hidden;
+	border-top: 30px solid #f4f5f9;
+}
+
+.conmin_left{
+	width: 60%;
+	height: 300px;
+	line-height: 1.6;
+	float: left;
+	margin: 30px;
+}
+
+.content_left p{
+	color:#888888;
+	letter-spacing: 3px;
+}
+
+.content_left h3{
+	margin-bottom: 20px;
+}
+
+.conmin_right{
+	width: 26%;
+	height: 300px;
+	margin: 30px;
+	float: right;
+}
+
+.conmin_right img{
+	width: 60%;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.con_commit{
+	width: 100%;
+	overflow:hidden;
+}
+
+.commit_top{
+	width: 100%;
+	height: 200px;
+	border-top: 30px solid #f4f5f9;
+	border-bottom: 3px solid #f4f5f9;
+}
+
+.commit_top h3{
+	font-size: 40px;
+	margin: 80px 0 0 30px;
+}
+
+.commit_con{
+	width: 96%;
+	float: right;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #f4f5f9;
+}
+
+.commit_pa{
+	width: 90%;
+	float: right;
+	border-top: 1px solid #f4f5f9;
+}
+
+.commit_pa p{
+	font-size: 45px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.commit_bo{
+	width: 100%;
+	height: 180px;
+}
+
+.con_bot{
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	background: #ffffff;
+	bottom: 0;
+}
+
+.bot_img{
+	width: 13%;
+	height: 110px;
+	margin: 50px 80px 0 30px;
+	float: left;
+}
+
+.bot_img p{
+    font-size: 35px;
+    float: right;
+    color: #404040;
+}
+
+.bot_phone{
+	width: 26%;
+	height: 150px;
+	float: right;
+}
+
+.phone_want{
+	width: 85%;
+	height: 90px;
+	margin-top: 30px;	
+	text-align: center;
+	line-height: 100px;
+	background: #fe4543;
+}
+
+.phone_want a{
+	text-decoration: none;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: #ffffff;
+}
+
+
+.tell_one{
+	width: 100%;
+	height: 140px;
+	margin-left: 30px;
+	position: fixed;
+	bottom: 150px;
+	display: none;
+}
+
+.tell_form{
+	width: 100%;
+	height: 130px;
+	font-size: 40px;
+	text-indent: 20px;
+	border: 3px solid #888888;
+}
+
+.tell_send{
+	width: 18%;
+	height: 100px;
+	background: #fe4543;
+	border: 1px solid #fe4543;
+	font-size: 40px;
+	color: #ffffff;
+	position: absolute;
+	right: 50px;
+	top: 15px;
+}
+
+.phone_hid{
+	width: 100%;
+	height: 92%;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	background: #fdfdfb;
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.95;
+    opacity: 0.95;
+    display: none;
+    color: #404040;
+    font-size: 45px;
+
+} 
+
+.hidden_con{
+	width: 85%;
+	height: 80px;
+	float: right;
+	margin-top: 700px;
+}
+
+.hidden_con1{
+	width: 85%;
+	height: 80px;
+	float: right;
+}
+
+
+/*发布页样式*/
+
+.sendput_top{
+	width: 100%;
+	height: 200px;
+	background: #fafbfd;
+}
+
+.sendput_top p{
+	font-size: 45px;
+	line-height: 200px;
+	text-align: center;
+}
+
+.sendput_con{
+	width: 100%;
+	height: 900px;
+}
+
+
+.con_form{
+	width: 95%;
+	height: 130px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-indent: 30px;
+    border: none;
+    border-bottom: 3px solid  #f4f5f9;
+    color: #cecece;
+    outline: none;
+}
+
+.sendd_pic{
+	width: 95%;
+	height: 230px;
+	margin-top: 100px;
+}
+
+.pic_one{
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: #f4f5f9;
+}
+
+.one_circle{
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	background: #ffffff;
+	border: 2px solid black;
+	text-align: center;
+	position: relative;
+	top: 56px;
+	left: 56px;
+}
+
+.pic_one input{
+	width: 180px;
+	height: 180px;
+	position: relative;
+	top: -119px;
+	left: -53px;
+	z-index: 1;
+	opacity: 0;
+	filter: alpha(opacity=0); 
+	display: block;
+}
+
+.send_cho{
+	width: 80%;
+	height: 100px;
+	margin: 30px 0 0 30px;
+	font-size: 40px;
+}
+
+.send_cho p{
+	float: left;
+	margin-right: 30px;
+}
+
+.send_cho input{
+	width: 35px;
+	height: 35px;
+	margin: 10px;
+    float: left;
+}
+
+.send_sub{
+	width: 100%;
+	height: 180px;
+}
+
+.send_sub input{
+	width: 93%;
+	height: 100px;
+    margin: 30px 0 0 30px;
+    background: #fe4543;
+    border: 1px solid #fe4543;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 3px;
+}

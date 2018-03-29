@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft Yahei";
+}
+
+.mine_top{
+	width: 100%;
+	height: 400px;
+	border-bottom: 30px solid #f4f5f9;
+	display: block;
+}
+
+.minet_left{
+	width: 50%;
+	height: 400px;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.minet_left h1{
+    margin: 100px 0 50px 20px;
+}
+
+.minet_left input{
+	width: 300px;
+	height: 90px;
+	font-size: 37px;
+	background: #ffda44;
+	border: 1px solid #ffda44;
+}
+
+.minet_left img{
+	width: 70%;
+	position: relative;
+	top: 78px;
+}
+
+.mine_in{
+	width: 100%;
+	height: 793px;
+	border-bottom: 30px solid #f4f5f9;
+}
+
+.minti_all{
+	width: 90%;
+	height: 130px;
+	border-bottom: 3px solid #f4f5f9;
+	text-indent: 30px;
+	float: right;
+}
+
+.minti_all img{
+	width: 65px;
+	margin-top: 28px;
+	float: left;
+}
+
+.minti_all a{
+	text-decoration: none;
+	font-size: 38px;
+	color: #363636;
+	letter-spacing: 3px;
+	line-height: 130px;
+	text-align: center;
+}
+
+.mine_top1{
+	width: 100%;
+	height: 400px;
+	border-bottom: 30px solid #f4f5f9;
+}
+
+.minet_left1{
+	width: 60%;
+	height: 400px;
+	float: left;
+	font-size: 33px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.minet_left1 h1{
+    margin: 70px 0 50px 20px;
+}
+
+.minet_left1 p{
+	color: #363636;
+	margin-left: 30px;
+}
+
+.minet_left2 img{
+	border-radius: 50%;
+	width: 40%;
+	margin: 80px 0 30px 0;
+}
+
+.minet_left2{
+	width: 40%;
+	height: 400px;
+	float: left;
+	font-size: 33px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+/*个人界面*/
+
+.person_img{
+	width: 100%;
+	height: 400px;
+}
+
+.person_img img{
+	width: 100%;
+	height: 400px;
+}
+
+.person_writ{
+	width: 180px;
+	height: 58px;
+	margin: 0 auto;
+}
+
+.person_writ p{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+.person_his{
+	width: 97%;
+	height: auto;
+	float: right;
+}
+
+.history_time{
+	width: 100%;
+	height: 350px;
+	border: 3px solid #f4f5f9; 
+}
+
+.time_left{
+	width: 12%;
+	height: 300px;
+	margin-top: 50px;
+	float: left;
+	font-size: 50px;
+}
+
+.time_left p{
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+
+.time_right{
+	width: 88%;
+	height: 300px;
+	margin-top: 50px;
+	float: right;
+}
+
+.time_img{
+	width: 93%;
+	height: 250px;
+	background: #fafafa;
+}
+
+.time_img img{
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+.time_p a{
+	float: right;
+	width: 60%;
+	height: 150px;
+	margin-top: 35px;
+	overflow: hidden;
+	font-size: 37px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	color: black;
+}
+
+/*基本资料修改界面*/
+
+.infor_base{
+	width: 100%;
+	height: 200px;
+	background: #f4f5f9;
+}
+
+.infor_base p{
+    font-size: 40px;
+    color: #888888;
+    position: absolute;
+    margin: 120px 0 0 30px;
+}
+
+.infor_mine{
+	width: 90%;
+	height: 120px;
+	float: right;
+	border-bottom: 3px solid #f4f5f9;
+}
+
+.infor_mine p{
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+
+/*个人简介样式*/
+
+.your_form{
+	width: 100%;
+	height: 800px;
+}
+
+
+.your_one{
+	width: 93%;
+	height: 300px;
+	margin: 30px 0 0 30px;
+	border: 1px solid #ffffff;
+	font-size: 35px;
+}
+
+.your_two{
+	width: 93%;
+	height: 110px;
+	margin: 30px 0 0 30px;
+	background: #ffda44;
+	border: 1px solid #ffda44;
+	font-size: 35px;
+}
+
+.your_one1{
+	width: 82%;
+	height: 80px;
+	margin: 30px 40px 0 30px;
+	border: 1px solid #ffffff;
+	font-size: 35px;
+	float: right;
+}
+
+.conme_p1{
+	font-size: 38px;
+	position: absolute;
+	top: 200px;
+	left: 30px;
+}
+
+.conme_p2{
+	font-size: 38px;
+	position: absolute;
+	top: 310px;
+	left: 30px;
+}
+
+.conme_p3{
+	font-size: 40px;
+	position: absolute;
+	top: 410px;
+	left: 30px;
+}
